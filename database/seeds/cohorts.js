@@ -1,8 +1,8 @@
 
 exports.seed = function(knex, Promise) {
 
-REMOVING
-    
+// REMOVING
+
     return knex('cohorts')
         
     .truncate()
@@ -11,7 +11,7 @@ REMOVING
         .then(function() {
 
 
-SEED INPUTS
+// SEED INPUTS
 
 return knex('cohorts').insert([
 

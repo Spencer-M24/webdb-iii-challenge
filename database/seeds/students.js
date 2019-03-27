@@ -1,7 +1,7 @@
 
 exports.seed = function(knex, Promise) {
 
-Remove
+// REMOVE
     return knex('students')
     
     .truncate()
@@ -9,7 +9,7 @@ Remove
         .then(function() {
         
         
-        Seeds Here
+        // SEEDS HERE
             
         return knex('students').insert([
         
